@@ -1,0 +1,37 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "mocha": true
+    },
+    "globals": {
+        "chrome": true,
+        "crypto": true
+    },
+    "rules": {
+        "no-bitwise": "error",
+        "camelcase": "error",
+        "curly": "error",
+        "eqeqeq": "error",
+        "wrap-iife": ["error", "any"],
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "no-use-before-define": [
+            "error",
+            {
+                "functions": false
+            }
+        ],
+        "new-cap": "error",
+        "no-caller": "error",
+        "quotes": ["error", "double"],
+        "no-undef": "error",
+        "no-unused-vars": "error",
+        "strict": "error"
+    }
+}
